@@ -1,0 +1,279 @@
+---
+# Custom styles for Quantum Event
+---
+
+@import "{{ site.theme }}";
+
+// Quantum color palette
+:root {
+  --quantum-blue: #1e3a8a;
+  --quantum-purple: #7c3aed;
+  --quantum-cyan: #06b6d4;
+  --quantum-dark: #1f2937;
+  --quantum-light: #f8fafc;
+  --quantum-accent: #f59e0b;
+}
+
+// Body and general styling
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--quantum-dark);
+  background: linear-gradient(135deg, var(--quantum-light) 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+// Header styling
+.site-header {
+  background: linear-gradient(135deg, var(--quantum-blue) 0%, var(--quantum-purple) 100%);
+  box-shadow: 0 4px 20px rgba(30, 58, 138, 0.3);
+  border: none;
+  
+  .site-title {
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    
+    &:hover {
+      color: var(--quantum-cyan) !important;
+      text-decoration: none;
+    }
+  }
+  
+  .site-nav .page-link {
+    color: rgba(255,255,255,0.9) !important;
+    font-weight: 500;
+    
+    &:hover {
+      color: var(--quantum-cyan) !important;
+      text-decoration: none;
+    }
+  }
+}
+
+// Main content area
+.page-content {
+  padding: 2rem 0;
+  
+  .wrapper {
+    max-width: 1000px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(30, 58, 138, 0.1);
+    padding: 3rem;
+    margin: 0 auto;
+  }
+}
+
+// Headings
+h1 {
+  color: var(--quantum-blue);
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  
+  &::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--quantum-blue), var(--quantum-purple));
+    margin: 1rem auto;
+    border-radius: 2px;
+  }
+}
+
+h2 {
+  color: var(--quantum-purple);
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin: 2.5rem 0 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid var(--quantum-cyan);
+}
+
+h3 {
+  color: var(--quantum-blue);
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+}
+
+// Content sections
+.event-info {
+  background: linear-gradient(135deg, #eff6ff, #e0e7ff);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  border-left: 6px solid var(--quantum-blue);
+  
+  strong {
+    color: var(--quantum-purple);
+  }
+}
+
+// Lists
+ul, ol {
+  li {
+    margin-bottom: 0.8rem;
+    
+    strong {
+      color: var(--quantum-blue);
+      font-weight: 600;
+    }
+  }
+}
+
+// Links
+a {
+  color: var(--quantum-blue);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  
+  &:hover {
+    color: var(--quantum-purple);
+    text-decoration: underline;
+  }
+}
+
+// Emojis and icons
+.emoji-header {
+  font-size: 1.5em;
+  margin-right: 0.5rem;
+}
+
+// Special sections
+.objectives-section {
+  background: linear-gradient(135deg, #fef3c7, #fed7aa);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  border-left: 6px solid var(--quantum-accent);
+}
+
+.thematic-areas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  
+  .area-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.1);
+    border-top: 4px solid var(--quantum-purple);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(124, 58, 237, 0.2);
+    }
+    
+    strong {
+      color: var(--quantum-purple);
+      font-size: 1.1rem;
+    }
+  }
+}
+
+// Organization section
+.organization-section {
+  background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  border-left: 6px solid #10b981;
+  
+  .coordinator {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .affiliation {
+    font-style: italic;
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Contact section
+.contact-section {
+  background: linear-gradient(135deg, #fdf2f8, #fce7f3);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  text-align: center;
+  border-left: 6px solid #ec4899;
+  
+  a {
+    color: #ec4899;
+    font-weight: 600;
+    
+    &:hover {
+      color: #be185d;
+    }
+  }
+}
+
+// Horizontal rules
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, var(--quantum-blue), var(--quantum-purple), var(--quantum-cyan));
+  margin: 3rem 0;
+  border-radius: 1px;
+}
+
+// Footer
+.site-footer {
+  background: var(--quantum-dark);
+  color: white;
+  
+  a {
+    color: var(--quantum-cyan);
+    
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .page-content .wrapper {
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 12px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .thematic-areas {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Animation for page load
+.page-content {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
