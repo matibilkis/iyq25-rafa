@@ -1,35 +1,31 @@
 # Site settings
 title: "Tecnologías Cuánticas - RAFA 2025"
 description: "Evento Satélite especializado en Tecnologías Cuánticas"
-baseurl: "/iyq25-rafa" # MUST match your GitHub repo name exactly
+baseurl: "/iyq25-rafa"
 url: "https://matibilkis.github.io"
 
-# Event info
-event:
-  name: "Tecnologías Cuánticas"
-  subtitle: "Evento Satélite RAFA 2025"
-  dates: "Fechas por confirmar"
-  location: "Lugar por definir"
-
-# Build settings - GitHub Pages compatible
+# Build settings - GitHub Pages default
 markdown: kramdown
-remote_theme: jekyll/minima # Use remote_theme instead of theme for GitHub Pages
+highlighter: rouge
 
+# Plugins that GitHub Pages supports
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
 
-# Navigation
+# Navigation pages
 header_pages:
   - index.md
   - programa.md
-  - ponentes.md
-  - inscripcion.md
-  - contacto.md
 
-# Language
-lang: es
-
-# GitHub Pages specific
-github: [metadata]
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - _site
+  - assets/css/main.scss

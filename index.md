@@ -1,13 +1,13 @@
 ---
-layout: page
-title: ""
+layout: default
+title: "Inicio"
 ---
 
 # Tecnologías Cuánticas - Evento Satélite RAFA 2025
 
 <div class="event-info">
-<strong>📅 Fechas:</strong> Jueves 12 Septiembre, 14hs<br>
-<strong>📍 Lugar:</strong> Karakachoff, La Plata<br>
+<strong>📅 Fechas:</strong> Por confirmar<br>
+<strong>📍 Lugar:</strong> Por definir<br>
 <strong>🔗 Evento Principal:</strong> <a href="https://rafa2025.fisica.org.ar">RAFA 2025</a>
 </div>
 
@@ -17,19 +17,19 @@ title: ""
 
 Nos complace invitarlos a participar de este **evento satélite especializado en Tecnologías Cuánticas**, que se realizará en el marco de la reunión anual de la Asociación de Física Argentina (RAFA 2025).
 
-Este encuentro, que se enmarca en el <a href="https://cuantica2025.fisica.org.ar/">Año Internacional de la Física y Tecnologías Cuánticas</a> busca reunir a todos los sectores de nuestra sociedad interesados en impulsar este campo y fomentar el desarrollo de las tecnologías cuánticas en la región.
+Este encuentro busca reunir a investigadores, estudiantes y profesionales interesados en los últimos avances en el fascinante campo de las tecnologías cuánticas.
 
 ---
 
 <div class="objectives-section">
 
-## <span class="emoji-header"></span> Objetivos
+## <span class="emoji-header">🚀</span> Objetivos
 
-- **Difundir** la investigación en tecnologías cuánticas a lo largo y ancho del país
+- **Difundir** los últimos avances en tecnologías cuánticas
 - **Fomentar** la colaboración entre grupos de investigación
 - **Conectar** academia e industria
-- **Promover** la formación y retención de recursos humanos
-- **Establecer** redes de cooperación científicas, empresariales y gubernamentales
+- **Promover** la formación de recursos humanos
+- **Establecer** redes de cooperación científica
 
 </div>
 
@@ -58,38 +58,40 @@ Este encuentro, que se enmarca en el <a href="https://cuantica2025.fisica.org.ar
     <strong>Simulación Cuántica</strong><br>
     Modelado de sistemas complejos
   </div>
-    <div class="area-card">
-    <strong>Industria</strong><br>
-    Desarrollo de agenda 
-  </div>
 </div>
 
 ---
 
 <div class="organization-section">
-## Organización
 
+## <span class="emoji-header">👥</span> Organización
 
-**Comité Organizador:**
 <div class="coordinator">
-<strong>Coordinadora:</strong> Dra. Marta Reboiro 
-
-<strong>Coordinador:</strong> Dr. Omar Osenda
-
 <strong>Coordinador:</strong> Dr. Matías Bilkis
-
-<strong>Apoyo:</strong> Lic. Tomás Crosta
-<strong>Apoyo:</strong> Srta. Celeste
 </div>
 <div class="affiliation">
-Asociación de Física Argentina
-Instituto de Física La Plata
-Facultad de Matematica, Astonomia, Fisica y Computacion, Universidad Nacional de Cordoba - IFEG CON
-Universidad Nacional De La Plata
+QML-CVC, Universitat Autònoma de Barcelona
 </div>
+
+**Comité Estudiantil:**
+- Estudiante A - Programa
+- Estudiante B - Ponentes  
+- Estudiante C - Registro
+- Estudiante D - Comunicación
+
 </div>
 
 ---
+
+<div class="contact-section">
+
+## <span class="emoji-header">📞</span> Contacto
+
+📧 **Email:** contacto@quantumrafa.org<br>
+🐦 **Twitter:** @quantum_rafa
+
+</div>
+
 ---
 
 *Este evento forma parte de los eventos satélite de RAFA 2025, junto con otros encuentros especializados en diferentes áreas de la física.*
