@@ -6,8 +6,8 @@ title: ""
 # Tecnologías Cuánticas - Evento Satélite RAFA 2025
 
 <div class="event-info">
-<strong>📅 Fechas:</strong> Jueves 12 Septiembre, 14hs<br>
-<strong>📍 Lugar:</strong> Karakachoff, La Plata<br>
+<strong>📅 Fechas:</strong> Jueves 18 Septiembre, 14hs<br>
+<strong>📍 Lugar:</strong> <a href="https://maps.app.goo.gl/73AxwV4swtAtmayaA"> Karakachoff </a/>, La Plata<br>
 <strong>🔗 Evento Principal:</strong> <a href="https://rafa2025.fisica.org.ar">RAFA 2025</a>
 </div>
 
@@ -72,19 +72,26 @@ Este encuentro, que se enmarca en el <a href="https://cuantica2025.fisica.org.ar
 
 **Comité Organizador:**
 <div class="coordinator">
-<strong>Coordinadora:</strong> Dra. Marta Reboiro 
-
-<strong>Coordinador:</strong> Dr. Omar Osenda
-
-<strong>Coordinador:</strong> Dr. Matías Bilkis
-
-<strong>Apoyo:</strong> Lic. Tomás Crosta
-<strong>Apoyo:</strong> Srta. Celeste
+Dr. Matías Bilkis
+<br>
+Dr. Omar Osenda
+<br>
+Dra. Marta Reboiro 
+<br>
+<strong>Colaboradores:</strong> Lic. Tomás Crosta
+<br>
+<strong>Apoyo:</strong> Srta. Celeste Nah
+<br>
 </div>
 <div class="affiliation">
 Asociación de Física Argentina
+<br>
 Instituto de Física La Plata
+<br>
+
 Facultad de Matematica, Astonomia, Fisica y Computacion, Universidad Nacional de Cordoba - IFEG CON
+<br>
+
 Universidad Nacional De La Plata
 </div>
 </div>
